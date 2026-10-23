@@ -1,0 +1,13 @@
+{
+  "status": "private-app-created-public-review-incomplete",
+  "private_app_url": "https://chatgpt.com/plugins/plugin_asdk_app_6adb309a68688191be819c0de0a6939a",
+  "connection_status": "not connected; user data sharing prompt not accepted",
+  "mcp_endpoint": "https://syncbook.org/mcp/public",
+  "remaining": [
+    "Apps Management access and verified publishing identity in intended OpenAI organization",
+    "Owner-approved public terms of service URL",
+    "Domain-verification challenge when supplied by portal",
+    "Run 5 positive and 3 negative prompts in ChatGPT and record an accessible video walkthrough",
+    "Final required platform attestations"
+  ]
+}

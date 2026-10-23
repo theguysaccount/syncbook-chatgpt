@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-23T10:06:37.769Z",
+  "origin": "https://syncbook.org/mcp/public",
+  "kind": "protocol integration checks; not ChatGPT model tests",
+  "tools": [
+    "get_network",
+    "find_people",
+    "preview_profile",
+    "prepare_signup",
+    "get_signup_status",
+    "assess_profile_context",
+    "get_person_card",
+    "find_person_context"
+  ],
+  "checks": [
+    {
+      "name": "8 public tools; no private-account or commitment actions",
+      "passed": true
+    },
+    {
+      "name": "Live network counts preserve sample distinction",
+      "passed": true
+    },
+    {
+      "name": "Public development-profile search",
+      "passed": true
+    },
+    {
+      "name": "No-match query returns no invented profiles",
+      "passed": true
+    },
+    {
+      "name": "Partial profile readiness without enrollment",
+      "passed": true
+    },
+    {
+      "name": "Draft preview validates without enrolling or publishing",
+      "passed": true
+    },
+    {
+      "name": "Invalid enrollment schema rejected",
+      "passed": true
+    },
+    {
+      "name": "Unsupported approval tool rejected",
+      "passed": true
+    },
+    {
+      "name": "Private account tool unavailable in public app",
+      "passed": true
+    }
+  ]
+}

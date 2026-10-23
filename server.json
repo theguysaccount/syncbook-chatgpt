@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theguysaccount/syncbook",
+  "title": "Syncbook",
+  "description": "Find reciprocal collaborators and prepare a profile for human review.",
+  "repository": {
+    "url": "https://github.com/theguysaccount/syncbook-chatgpt",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://syncbook.org",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://syncbook.org/mcp/public"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "syncbook-public": {
+      "type": "streamable-http",
+      "url": "https://syncbook.org/mcp/public"
+    }
+  }
+}
