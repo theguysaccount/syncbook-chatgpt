@@ -1,0 +1,9 @@
+{
+  "registry": "https://registry.modelcontextprotocol.io",
+  "name": "io.github.theguysaccount/syncbook",
+  "version": "1.0.0",
+  "status": "publisher accepted publication",
+  "publisher": "official mcp-publisher v1.8.1, SHA-256 verified",
+  "remote": "https://syncbook.org/mcp/public",
+  "public_search_readback": "Timed out from curl and Node; web fetch unavailable. Provider publication receipt confirmed; public search visibility not independently verified."
+}
