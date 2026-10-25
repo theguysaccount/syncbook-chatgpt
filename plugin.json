@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "syncbook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discover reciprocal collaborators and prepare a profile for human review through Syncbook.",
   "author": {
     "name": "Jack Jay",
@@ -94,7 +94,7 @@
         "commerce_description": "No sales, payment processing, or financial transactions."
       },
       "publication": {
-        "release_notes": "Initial public-discovery and human-reviewed onboarding app package."
+        "release_notes": "Declare the existing public MCP endpoint as requiring no authentication."
       }
     }
   }
