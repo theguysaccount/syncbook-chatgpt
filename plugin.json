@@ -99,7 +99,7 @@
         "commerce_description": "No sales, payment processing, or financial transactions."
       },
       "publication": {
-        "release_notes": "Creates a fresh anonymous public discovery connection while preserving the existing read-only public search and human-reviewed profile workflow. Public directory submission still requires owner-approved service terms and a walkthrough."
+        "release_notes": "Align the public endpoint configuration with the portable core schema and add accurate capability labels. Public directory review still requires owner-approved service terms and a walkthrough."
       }
     }
   }
