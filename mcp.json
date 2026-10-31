@@ -3,14 +3,7 @@
   "mcpServers": {
     "syncbook-public": {
       "type": "streamable-http",
-      "url": "https://syncbook.org/mcp/public",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "none"
-          }
-        }
-      }
+      "url": "https://syncbook.org/mcp/public"
     }
   }
 }

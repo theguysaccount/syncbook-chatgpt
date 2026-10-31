@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "syncbook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Discover reciprocal collaborators and prepare a profile for human review through Syncbook.",
   "author": {
     "name": "Jack Jay",
@@ -35,7 +35,12 @@
         ],
         "brandColor": "#5367E9",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/icon.png"
+        "logo": "./assets/icon.png",
+        "capabilities": [
+          "Search public profiles",
+          "Read approved public context",
+          "Preview a profile for review"
+        ]
       },
       "onboardingSkill": "./skills/syncbook/SKILL.md",
       "review": {
@@ -94,7 +99,7 @@
         "commerce_description": "No sales, payment processing, or financial transactions."
       },
       "publication": {
-        "release_notes": "Declare the existing public MCP endpoint as requiring no authentication."
+        "release_notes": "Align the public endpoint configuration with the portable core schema and add accurate capability labels. Public directory review still requires owner-approved service terms and a walkthrough."
       }
     }
   }
