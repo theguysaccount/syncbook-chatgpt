@@ -1,16 +1,9 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
-    "syncbook-public": {
+    "syncbook-discovery": {
       "type": "streamable-http",
-      "url": "https://syncbook.org/mcp/public",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "none"
-          }
-        }
-      }
+      "url": "https://syncbook.org/mcp/public"
     }
   }
 }

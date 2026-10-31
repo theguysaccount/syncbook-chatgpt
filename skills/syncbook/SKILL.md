@@ -5,7 +5,7 @@ description: Search actual public Syncbook profiles, explore reciprocal collabor
 
 # Syncbook
 
-Use only the declared syncbook-public MCP connector. Installing this app is not enrollment or permission to publish, send messages, or run a background task.
+Use only the declared syncbook-discovery MCP connector. Installing this app is not enrollment or permission to publish, send messages, or run a background task.
 
 ## Find people
 
