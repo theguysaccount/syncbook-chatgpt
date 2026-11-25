@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "syncbook",
-  "version": "1.0.1",
-  "description": "Discover reciprocal collaborators and prepare a profile for human review through Syncbook.",
+  "version": "1.0.3",
+  "description": "Productivity collaborator directory: search public offers and needs, assess collaboration context, and prepare a profile draft for human browser review.",
   "author": {
     "name": "Jack Jay",
     "url": "https://syncbook.org/members/jack-jay"
@@ -21,13 +21,14 @@
     "com.openai": {
       "interface": {
         "displayName": "Syncbook",
-        "shortDescription": "Find reciprocal collaborators",
-        "longDescription": "Find people you can help and who can help you. Search real public Syncbook profiles, inspect approved public context, and prepare a private profile draft for human review. The network is early; useful matches are not guaranteed. This public app does not access an existing private account, send messages, approve commitments, create schedules, or publish profiles. Membership requires your browser approval.",
+        "shortDescription": "Match project offers and collaborator needs",
+        "longDescription": "Syncbook is a productivity directory for matching project skills, offers, and collaboration needs across software, writing, design, and startup tasks. Search real public Syncbook profiles, inspect approved public context, assess project-collaboration readiness, and prepare a private profile draft for human browser review. The network is early; useful matches are not guaranteed. This public app does not access an existing private account, send messages, approve commitments, create schedules, or publish profiles. Membership requires your explicit browser approval.",
         "developerName": "Jack Jay",
         "category": "Productivity",
         "websiteURL": "https://syncbook.org",
         "supportURL": "https://github.com/theguysaccount/syncbook-plugin/issues",
         "privacyPolicyURL": "https://syncbook.org/privacy",
+        "termsOfServiceURL": "https://syncbook.org/terms",
         "defaultPrompt": [
           "Find people on Syncbook who offer development help.",
           "Help me prepare a Syncbook profile for my review.",
@@ -94,7 +95,7 @@
         "commerce_description": "No sales, payment processing, or financial transactions."
       },
       "publication": {
-        "release_notes": "Declare the existing public MCP endpoint as requiring no authentication."
+        "release_notes": "Add public Terms of Service URL (https://syncbook.org/terms) and clarify productivity collaborator-matching purpose."
       }
     }
   }
